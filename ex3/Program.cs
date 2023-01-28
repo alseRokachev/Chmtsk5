@@ -43,7 +43,7 @@ double numberComparison(double[] array)
 {
     double max = array[0];
     double min = array[0];
-    for (int i = 0; i < array.Length; i++)
+    for (int i = 1; i < array.Length; i++)
     {
         if (array[i] > max)
         {
